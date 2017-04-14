@@ -16,7 +16,7 @@ config = {
         'scripts': [],
         'name': 'anwbis',
         'entry_points': {
-                'console_scripts': [ 'anwbis = anwbis.anwbis:Anwbis' ]
+                'console_scripts': [ 'anwbis = anwbis.anwbis:main' ]
         }
 }
 setup(**config)
